@@ -1,0 +1,15 @@
+Why split up Biopython?
+=======================
+
+* Easier maintenance, module authors have their package live in their own repo and are responsible for that
+* Lower barrier for contribution
+* Lightweight install for users, only install what's needed without worrying about things like C-compilation, etc.
+
+
+Issues to consider
+==================
+
+* Which modules go to the base module?
+* How would packaging work?
+* How would OS-specific packaging system work? (e.g. installing via apt or pacman)
+
