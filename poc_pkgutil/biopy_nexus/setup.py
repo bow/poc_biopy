@@ -75,7 +75,7 @@ def run_setup(with_binary):
         author="Frank Kauff & Cymon J. Cox",
         description="Biopython extension for parsing Nexus files",
         long_description=__doc__,
-        packages=["biopy", "biopy.ext", "biopy.ext.togows"],
+        packages=["biopy", "biopy.ext", "biopy.ext.nexus"],
         include_package_data=True,
         zip_safe=False,
         install_requires=[
