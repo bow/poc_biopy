@@ -13,6 +13,17 @@ POC modules:
 
   * `biopy_statistics`: Extension depending on numpy
 
+In addition to having separate Python packages (Biopython extensions),
+the POC also tries to do the following:
+
+  * [Semantic versioning](http://semver.org/), with a boolean `RELEASE` flag (`-dev` or ``) to denote development versions. Versioning starts at `2.0.0-dev` to avoid clashes with current Biopython code
+
+  * better PEP8 compliance
+
+  * updated namespace for core modules
+
+  * (maybe -- other backward incompatible changes?)
+
 
 WARNING
 -------
