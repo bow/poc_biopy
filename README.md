@@ -1,5 +1,9 @@
-POC-BIOPY
-=========
+# :warning: archived
+
+I am no longer working on this repository and have therefore decided to archive it.
+
+
+# POC-BIOPY
 
 Proof of concept (POC) for a distributed Biopython setup.
 
@@ -25,16 +29,14 @@ the POC also tries to do the following:
   * (maybe -- other backward incompatible changes?)
 
 
-WARNING
--------
+## WARNING
 
 This is not for any kind of production use. The codebase are mainly adapted
 from the official Biopython distribution, except one where it is mentioned
 explicitly.
 
 
-INSTALLATION
-------------
+## INSTALLATION
 
 1. The one using `sys.meta_path` (`poc_hook`)
   
